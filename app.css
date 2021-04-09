@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(5, 5, 34);
+  color: snow;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#app {
+  padding: 20px 60px 30px 25px;
+  margin-left: 350px;
+  margin-top: 40px;
+  border: 6px solid;
+  display: inline-block;
+  background-color: rgb(5, 5, 34);
+  border-color: indigo;
+  border-radius: 18px;
+  box-shadow: indigo 1px 1px 15px 1px inset;
+}
+
+.form-control input {
+  width: 350px;
+  height: 30px;
+  border: 0px solid;
+}
+
+.btn {
+  padding: 10px;
+  margin-left: 380px;
+  position: relative;
+  top: -37px;
+  background-color: green;
+  color: aliceblue;
+  border: 0px;
+  border-radius: 13px;
+  box-shadow: greenyellow;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+  right: 40px;
+}
+
+.btn_danger {
+  margin-left: 450px;
+  color: aliceblue;
+  border: 0px solid;
+  border-radius: 13px;
+  box-shadow: greenyellow;
+  padding: 10px;
+  background-color: red;
+  cursor: pointer;
+  display: block;
+}
